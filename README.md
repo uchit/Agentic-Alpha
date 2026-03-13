@@ -1,5 +1,5 @@
 
-# Agentic Alpha – Production Demo
+# Agentic Alpha 
 
 This project demonstrates a multi‑agent trading analysis system with:
 
@@ -59,17 +59,4 @@ Trading Signal Agent
 Regulatory Agent
 
 Each agent runs on the selected ticker symbol and returns validated results.
-
----
-
-# Rubric Evidence
-
-Requirement | Location
-Fibonacci Tool | tools/pydantic_market_tools.py
-Market Data Tool | tools/pydantic_market_tools.py
-Enum Typed Agent | agents/pydantic_agents.py
-TradingDecision Model | models/trading_models.py
-Sidebar Integration | main.py
-Symbol State Management | main.py (session_state)
-Regulatory Audit Output | agents/regulatory_agent.py
 
